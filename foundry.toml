@@ -2,5 +2,12 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+fs_permissions = [{ access = "read-write", path = "./"}]
+
+[rpc_endpoints]
+polygonMumbai = "${MUMBAI_RPC}"
+
+[etherscan]
+polygonMumbai = { key = "${ETHERSCAN_API_KEY}" }
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
