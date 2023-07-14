@@ -39,6 +39,10 @@ contract CreateSubscriptionScript is ChainlinkAddressBook {
     }
 
     function printSubscriptionInfo(uint64 subId) internal view {
+        console.logString("");
+        console.logString("");
+        console.logString("");
+
         console.logString(
             "------------------ Subscription DATA ------------------"
         );

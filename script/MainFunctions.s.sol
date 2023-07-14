@@ -26,7 +26,7 @@ contract MainFunctionsScript is
         uint64 subId = createSubscription();
 
         // STEP 2 : Fund the subscription
-        fundSubscription(subId, 5 ether);
+        fundSubscription(subId, 1 ether);
 
         // NOTE : if you alredy have a funded subscription you can directly use it
         // uint64 subId = 1897;
